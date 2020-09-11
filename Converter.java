@@ -25,5 +25,6 @@ public class Converter {
     public static void main(String[] args) {
         celsiusToFahrenheit(180);
         fahrenheitToCelsius(250);
+        kilometersToMiles(30);
     }
 }
