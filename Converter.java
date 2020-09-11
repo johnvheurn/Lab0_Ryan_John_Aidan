@@ -18,8 +18,13 @@ public class Converter {
         return (5*(F-32)/9);
 
     }
+    private double kilometersToMiles(double km) {
+        // The second student will implement this method
+        return km*0.62137119;
+    }
     public static void main(String[] args) {
         celsiusToFahrenheit(180);
         fahrenheitToCelsius(250);
+        kilometersToMiles(50);
     }
 }
